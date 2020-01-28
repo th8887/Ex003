@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
         btn.setText("This is a click number:"+count);
         if(count==6) {
             count=0;
-            btn.setText("Enough to click.Go to new start!"+count);
+            btn.setText("Enough to click.Go to new start!");
         }
     }
 }
